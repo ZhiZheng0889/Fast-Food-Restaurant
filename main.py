@@ -119,6 +119,7 @@ def updateproduct():
 def productreport():
     for i in range(0, len(product_names)):
         product = (float(product_costs[i])*float(product_quantity[i]))
+        print(product)
     return
 
 product_names = ["soft drink", "onion rings", "small fries"]
